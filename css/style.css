@@ -50,11 +50,12 @@ main{
 .contenitore{
     background-color: white;
     width: 800px;
-    height: 500px;
+    height: 650px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
+/*bottoni*/
 .add-task{
     background-color: #45bcf7;
     color: white;
@@ -70,10 +71,118 @@ main{
     border-radius: 5px;
     padding: 5px;
 }
+/*bottoni*/
 
+/*titolo più lista*/
 h2{
     display: inline block;
     padding: 10px 40px;
     padding-bottom: 0px;
-    
+    margin-left: 30px;
+    padding-top: 0px;
 }
+
+/* style elementi della lista */
+ul{
+    list-style: none;
+}
+
+li{
+    padding-bottom: 20px;
+}
+
+.approvato{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid lightgreen;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    color: lightgreen;
+    margin-right: 10px;
+}
+
+.non-approvato{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid lightcoral;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    color: lightcoral;
+    margin-right: 10px;
+}
+
+.style{
+    display: inline-block;
+    font-size: small;
+    font-weight: bold;
+     color: #f6f8f9;
+    background-color: #09a9ed;
+    padding: 3px;
+    border: 1px solid #09a9ed;
+    border-radius: 10px;
+}
+
+#viola{
+    display: inline-block;
+    font-size: small;
+    font-weight: bold;
+    color: #f6f8f9;
+    background-color: #ab5de6;
+    padding: 3px;
+    border: 1px solid #ab5de6;
+    border-radius: 10px;
+}
+
+#verde{
+    display: inline-block;
+    font-size: small;
+    font-weight: bold;
+    color: #f6f8f9;
+    background-color: #2cc6ab;
+    padding: 3px;
+    border: 1px solid #2cc6ab;
+    border-radius: 10px;
+}
+
+#arancione{
+    display: inline-block;
+    font-size: small;
+    font-weight: bold;
+    color: #f6f8f9;
+    background-color: #ff9b00;
+    padding: 3px;
+    border: 1px solid #ff9b00;
+    border-radius: 10px;
+}
+
+#rosa{
+    display: inline-block;
+    font-size: small;
+    font-weight: bold;
+    color: #f6f8f9;
+    background-color: #ec4a9d;
+    padding: 3px;
+    border: 1px solid #ec4a9d;
+    border-radius: 10px;
+}
+
+#senape{
+    display: inline-block;
+    font-size: small;
+    font-weight: bold;
+    color: #f6f8f9;
+    background-color: #a3d116;
+    padding: 3px;
+    border: 1px solid #a3d116;
+    border-radius: 10px;
+}
+/* style elementi della lista */
+
+
+
+
+
