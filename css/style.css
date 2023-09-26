@@ -1,3 +1,14 @@
+/*
+--------------
+header
+--------------
+*/
+
+/*
+--------------
+logo più titolo
+--------------
+*/
 #logo{
     display: inline-block;
     vertical-align: middle;
@@ -9,5 +20,57 @@ h1{
     vertical-align: middle;
     font-family: 'Roboto', sans-serif;
 }
+/*
+--------------
+logo più titolo
+--------------
+*/
+
+/*
+--------------
+main
+--------------
+*/
+main{
+    background-color: #f6f8f9;
+    padding: 20px;
+}
+
+/* button di nav*/
+.border{
+    border-bottom: 2px solid #f6f8f9;
+    padding: 10px 40px;
+}
+/* button di nav*/
+
+.contenitore{
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.add-task{
+    background-color: #45bcf7;
+    color: white;
+    border-color: #45bcf7;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.add-section{
+    background-color: #ffffff;
+    color: lightgrey;
+    border-color: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+
 
 
