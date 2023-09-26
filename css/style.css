@@ -1,0 +1,13 @@
+#logo{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+}
+
+
