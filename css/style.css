@@ -55,6 +55,10 @@ main{
     border-radius: 5px;
 }
 
+.contenitore section h2::before{
+    content: "\25BE";
+}
+
 /*bottoni*/
 .add-task{
     background-color: #45bcf7;
